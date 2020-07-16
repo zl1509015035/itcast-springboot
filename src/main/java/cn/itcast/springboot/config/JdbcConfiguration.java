@@ -31,6 +31,7 @@ public class JdbcConfiguration {
 
     public DataSource dataSource() {
         DruidDataSource dataSource = new DruidDataSource();
+        System.out.println("hollow");
         return dataSource;
     }
 
